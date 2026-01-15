@@ -45,7 +45,7 @@ export default function SignUp() {
         }
 
         try {
-            const response = await fetch('https://nlfbackend.vercel.app/api/save_user_data', {
+            const response = await fetch('https://nlf-backend-code.vercel.app/api/save_user_data', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
