@@ -93,7 +93,7 @@ export default function SignUp(props) {
       console.log("form_data",form_data)
       try {
         setLoading(true);
-        const response = await fetch('https://nlfbackend.vercel.app/api/save_form_data', {
+        const response = await fetch('https://nlf-backend-code.vercel.app/api/save_form_data', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

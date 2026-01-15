@@ -79,7 +79,7 @@ export default function SignIn() {
 
         try {
             setLoading(true);
-            const response = await fetch('https://nlfbackend.vercel.app/api/get_user_validation', {
+            const response = await fetch('https://nlf-backend-code.vercel.app/api/get_user_validation', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
