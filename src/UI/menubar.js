@@ -36,7 +36,7 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-           bible study form
+          Leap year bible study form
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
