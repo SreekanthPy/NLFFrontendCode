@@ -192,7 +192,7 @@ export default function SignUp(props) {
         <CssBaseline />
 
         <Typography component="h1" variant="h5" m={2}>
-        bible study form
+         bible study form
         </Typography>
         <Box
           sx={{
